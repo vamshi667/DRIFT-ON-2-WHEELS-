@@ -1,0 +1,76 @@
+
+  
+
+
+
+body, html {
+    height: 100%;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .bg{
+    /* The image used */
+    background: linear-gradient(to right rgb(82, 111, 169) , rgba(132, 57, 198, 0.5));
+  
+    /* Control the height of the image */
+    min-height: 380px;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*position: relative;*/
+  }
+  
+  
+  
+  
+  div{
+    margin: 300px 600px;
+  }
+  /* Add styles to the form container */
+  
+  .container {
+    
+    
+    margin:20px;
+    width:300px;
+    padding: 16px;
+    background-color: white;
+  }
+  
+  /* Full-width input fields */
+  .input-field{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+ .input-field{ background-color: #ddd;
+  outline: none;
+ }
+  
+  
+  /* Set a style for the submit button */
+  .button {
+    background-color:orange;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width:100%;
+    opacity: 0.8;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    
+  }
+  
+  .button:hover {
+    opacity: 1;
+  }

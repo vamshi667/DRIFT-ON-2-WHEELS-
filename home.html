@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+a img{margin-right:0px;}
+
+:root{
+    --primary-text-color:#333;
+    --seconday-text-color:rgb(90, 90, 90);
+    --accent-color:#2294ed;
+    --accent-color-dark:#1d69a3;
+    --padding-inline-section:20px;
+
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color:rgb(255, 255, 255);
+    
+}
+
+
+h1{
+    font-size: 3rem;
+    font-family:'Roboto', sans-serif;
+}
+h2{
+    font-size: 1.5rem;
+}
+p{
+    font-size: 1.25rem;
+}
+a{
+    text-decoration: none;
+    display:inline-block;
+}
+
+.flex{
+    display:flex;
+    
+}
+.nav-bar{
+    justify-content: space-between;
+    padding:20px;
+    
+}
+ul{
+    list-style: none;
+}
+.nav-image img{
+    width:70px;
+    
+    
+    
+}
+.logo{margin-right: 230px;}
+.container{
+    margin:10px 40px 0 40px;
+}
+.nav-links ul{
+    justify-content:end;
+    gap:30px;
+    flex-basis: 730px;
+}
+
+.hover-link{
+    padding:12px 24px;
+    color: var(--seconday-text-color);
+}
+
+.hover-link:hover{
+    color:var(--primary-text-color);
+}
+.primary-button{
+    color:white;
+    background-color:var(--accent-color) ;
+    border-radius: 5px;
+}
+.primary-button:hover{
+    background-color: var(--accent-color-dark);
+}
+.store-icons{
+    width:100px;
+    margin-left:20px;
+}
+.main-section{
+    margin-top:60px;
+}
+.heading-right img{
+    width:700px;
+    position: absolute;
+}
+
+.heading-left{
+    margin:70px;
+}
+.heading-left h1{
+    font-size:5rem;
+    margin-top:20px;
+}
+.forms-section{
+    background-color: rgb(240, 239, 239);
+    border-radius: 8px;
+    
+    justify-content: space-between;
+    gap:10px;
+    padding:12px 24px;
+    
+}
+.forms-section label{
+    display:block;
+}
+.forms-section input{
+    width:100px;
+}
+.info{
+    text-align: center;
+    margin-bottom: 70px;
+}
+.hero{
+    text-align: center;
+}
+.steps{
+    padding:40px;
+}
+.small-icon{
+    color:rgb(255, 136, 0);
+    font-size: 30px;
+}
+.cars img{
+    width:300px;
+    border-radius: 8px;
+}
+.cars{
+    background-color:rgb(240, 239, 239) ;
+    width:348px;
+    padding:12px 24px;
+    
+}
+.date{
+    border: 1px solid black;
+    padding:2px 10px;
+    display: inline-block; 
+    border-radius: 6px;
+}
+.cars a{
+    width:100%;
+    text-align: center;
+}
+.car-collection{
+    justify-content: space-between;
+    padding: 5px 100px;
+}
+.left-side img{
+    width:500px;
+
+}
+.about-us-section{
+    margin-left:30px;
+    justify-content: space-between;
+}
+.customer img{
+    width:50px;
+    height:50px;
+    border-radius: 300px;
+}
+.customer{
+    text-align: center;
+    box-shadow: 0 0 5px;
+    padding:5px;
+    border-radius: 8px;
+    
+}
+.customer-reviews{
+    justify-content: space-between;
+}
+.customer-icon{
+    color:rgb(255, 132, 0);
+}
+.copyright-section{
+    text-align: center;
+    font-size: 30px;
+    background-color: rgb(255, 149, 0);
+    
+}
+.final-icon{
+    margin: 0px 20px;
+    color: white;
+}
+.nav-bar{
+    background-color:rgb(240, 239, 239) ;
+    align-items:center;
+   
+    
+}   
+</style>
+
+
+</head>
+<body>
+    <section class="main-section flex">
+        <div class="heading-left container">
+            <h1><span style="color:rgb(73, 120, 60)">Your<br>Dream ride awaits</span><br>Rent a superbike</h1>
+            <p>Rent top-quality bikes for your next adventure!<BR>Choose from mountain, hybrid, or electric bikes for a smooth,<BR>thrilling ride on any terrain. Book now<BR>and explore the outdoors like never before!</p>
+            <img class="store-icons" src="512x512.png" alt="google play store" >
+            <img class="store-icons" src="ios.png" alt="ios store"><br><br>
+            <div class="forms-section container flex">
+                <div>
+                    <label for="location">Location</label>
+                    <input type="text" id="location" placeholder="Search Places">
+                </div><br>
+                <div >
+                    <label for="pickup">Pick-Up Date</label>
+                    <input type="date" id="pickup">
+                </div><br>
+                <div >
+                    <label for="return">Return</label>
+                    <input type="date" id="return"><br>
+                </div>
+                <div>
+                    <a href="#" class="primary-button hover-link">Submit</a>
+                </div>
+            </div>
+        </div>
+        <div class="heading-right container">
+            <img src="beneli 1000(1).png">
+        </div>
+    </section>
+</body>
+</html>
